@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ai</title>
+    <link rel="stylesheet" href="bot.css">
+</head>
+<body>
+   
+  
+    <div class="img1"><img src="chat_bot-removebg-preview.png" alt="bot" height="400px" width=""></div>
+  <div class="btn"><button onclick="openPopup()" >Open Chat</button>
+              <div id="popupContainer" style="display: none;">
+               <iframe
+                 allow="microphone;"
+                 width="350"
+                 height="430"
+                 src="https://console.dialogflow.com/api-client/demo/embedded/1cba4cd5-6141-4cff-96e8-c78a88897081">
+             </iframe>
+             </div>
+
+             <script>
+
+               function openPopup() {
+                 document.getElementById('popupContainer').style.display = 'block';
+               }
+
+
+               function closePopup() {
+                 document.getElementById('popupContainer').style.display = 'none';
+               }
+             </script>
+             <button onclick="closePopup()">
+
+              Close Chat</button> 
+
+              </div>
+  
+</body>
+</html>

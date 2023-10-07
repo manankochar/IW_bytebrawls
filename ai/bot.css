@@ -1,0 +1,35 @@
+button{
+    height: 100px;
+    width: 300px;
+}
+
+.img1 {
+    margin-left: 400px;
+
+}
+
+body 
+{
+background-color: burlywood;
+
+}
+
+body button {
+    justify-content: center;
+    border: 2px solid grey;
+    border-radius: 40px;
+    font-size: 32px;
+}
+
+
+.btn {
+    margin-top: 20px;
+    margin-left: 310px;
+}
+
+
+
+
+
+
+
